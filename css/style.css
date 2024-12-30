@@ -61,7 +61,8 @@ html {
 }
 
 body {
-    padding: 40px;
+    padding-right: 40px;
+    padding-top: var(--header-height);
     margin: var(--header-height) 20px 0 20px;
     font-family: var(--body-font);
     font-size: var(--normal-font-size);
@@ -278,7 +279,7 @@ img {
     bottom: 0;
     width: 290px;
     height: 390px;
-    margin-right: 20px;
+    margin-right: 0;
     margin-top: 120px;
 }
 

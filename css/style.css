@@ -8,6 +8,7 @@
 :root {
     --first-color: #F0BB78;
     --second-color: #543A14;
+    --heading-color: #D8C4B6;
 }
 
 :root {
@@ -308,8 +309,12 @@ img {
 
 .about_subtitle {
     margin-top: var(--mb-2);
-    margin-bottom: var(--mb-2);
+    margin-bottom: var(--mb-2);;
 }
+
+/* .about_title-color {
+    color: var(--heading-color);
+} */
 
 .about_img {
     justify-self: center;

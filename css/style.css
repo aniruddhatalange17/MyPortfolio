@@ -377,16 +377,20 @@ img {
     z-index: var(--z-back);
 }
 
-.skills_html {
+.skills_Adv_soft {
     width: 95%;
 }
 
-.skills_css {
+.skills_sa {
     width: 91%;
 }
 
-.skills_js {
+.skills_mp {
     width: 82%;
+}
+
+.skills_am {
+    width: 80%;
 }
 
 .skills__img {

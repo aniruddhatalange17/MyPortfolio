@@ -71,6 +71,7 @@ body {
 
 h1,h2,h3,p {
     margin: 0;
+    padding-top: 10px;
 }
 
 ul {
@@ -152,6 +153,10 @@ img {
     align-items: center;
     font-weight: var(--font-semi);
   }
+
+.nav_list ul{
+    list-style-type: none;
+}
 
 @media screen and (max-width: 768px) {
     .nav_menu {
@@ -698,6 +703,22 @@ img {
         display: flex;
         padding-top: 0;
         margin-right: 25px;
+        margin-bottom: 10px;
+        list-style-type: none;
+    }
+
+    ul {
+        list-style-type: disc;
+        margin: 0;
+        padding: 0;
+        list-style-type: disc;
+        margin-left: 25px;
+        margin-top: 20px;
+    }
+
+    ul ul {
+        list-style-type: circle; /* Change bullet style for nested lists */
+        margin-left: 20px; /* Indent nested lists */
     }
 
     .nav_item {
@@ -829,6 +850,36 @@ img {
 
     .responsive-br {
         display: inline;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        border: 1px solid #ddd;
+        padding: 8px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+        font-weight: bold;
+        text-align: left; /* Center align header text */
+    }
+    
+    td {
+        text-align: left; /* Center align table data */
+    }
+    
+    tr:nth-child(even) {
+        background-color: #f9f9f9; /* Add zebra striping for better readability */
+    }
+    
+    tr:hover {
+        background-color: #f1f1f1; /* Highlight row on hover */
     }
 
 }

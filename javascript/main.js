@@ -41,9 +41,9 @@ const sr = ScrollReveal({
 // Scroll Home
 
 sr.reveal('.home_title', {})
-sr.reveal('.button', { delay: 200 })
-sr.reveal('.home_img', { delay: 400 })
-sr.reveal('.home_social-icon', { interval: 200 })
+sr.reveal('.button', { delay: 100 })
+sr.reveal('.home_img', { delay: 200 })
+sr.reveal('.home_social-icon', { interval: 100 })
 
 // Scroll About
 sr.reveal('.about_img', {})
@@ -78,7 +78,7 @@ sr.reveal('.cv_img', { interval: 100 })
 // Scroll Publications
 sr.reveal('.publication', { interval: 100 })
 sr.reveal('.publications_subtitle', { interval: 350 })
-sr.reveal('.publication_img', { interval: 100 })
+sr.reveal('.publications_img', { interval: 200 });
 
 // Scroll Footer
 sr.reveal('.footer_title', {})

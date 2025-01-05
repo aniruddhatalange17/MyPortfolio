@@ -367,6 +367,8 @@ img {
 .about_img img {
     max-width: 100%;
     height: auto;
+    /* padding: 30px; */
+    margin: 35px;
 }
 
 /*==================== Design ====================*/
@@ -489,6 +491,7 @@ img {
 .skills__img {
     border-radius: 0.5rem;
     margin-left: var(--mb-6);
+    width: 100%;
 }
 
 
@@ -681,8 +684,8 @@ img {
     }
 
     .section {
-        padding-top: .5rem;
-        padding-bottom: .3rem;
+        padding-top: 5rem;
+        padding-bottom: 3rem;
     }
 
     .section-title {
@@ -790,7 +793,7 @@ img {
 
     .research_container, .project_container {
         grid-template-columns: repeat(3, 1fr);
-        grid-template-rows: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 1fr);
         column-gap: 2rem;
     }
 
@@ -809,6 +812,14 @@ img {
         cursor: pointer;
         justify-self: center;
         align-items: center;
+    }
+
+    .publications_img, .cv_img {
+        width: 80%;
+        height: 500px;
+        box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
+        border-radius: .5rem;
+        overflow: hidden;
     }
 
     .publications_img img {

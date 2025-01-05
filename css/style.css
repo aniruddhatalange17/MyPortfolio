@@ -119,10 +119,10 @@ img {
     background-color: var(--first-color);
   }
 
-  .section {
+  /* .section {
     padding-top: 5rem;
     padding-bottom: 4rem;
-  }
+  } */
 
 
 /*==================== LAYOUT ====================*/
@@ -681,8 +681,8 @@ img {
     }
 
     .section {
-        padding-top: 5rem;
-        padding-bottom: 3rem;
+        padding-top: .5rem;
+        padding-bottom: .3rem;
     }
 
     .section-title {

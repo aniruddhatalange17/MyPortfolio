@@ -772,12 +772,21 @@ img {
         bottom: 15%;
     }
 
-    .about_container, .skills_container, .cv_container, .publications_container, .design_container {
+    .about_container, .skills_container, .cv_container, .publications_container {
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
         text-align: initial;
         justify-items: center;
         align-items: center;
+        margin-bottom: var(--mb-6);
+    }
+
+    .design_container {
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        text-align: initial;
+        justify-items: center;
+        align-items: flex-start;
         margin-bottom: var(--mb-6);
     }
 
